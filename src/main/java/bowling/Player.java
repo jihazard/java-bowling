@@ -3,6 +3,7 @@ package bowling;
 import java.util.Objects;
 
 public class Player {
+    private BowlingScore score;
     private String name;
 
     public Player(String name) {
